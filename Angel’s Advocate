@@ -1,1 +1,22 @@
-Python yet to be imported...
+#Convo 1
+#Angel:
+print("Hi, I am the Angel's Advocate. You can just call me Angel, tho")
+print("What's your name? Uh, you can give your real name or your nickname, it doesn't really matter much, lol. ")
+
+#User:
+print('Your name:')
+x = input()
+print('Oh, hi... ' + x)
+
+male = 'Boy'
+female = 'Girl'
+
+print("Hey, are you a boy or a girl? This is necessary for a personalised conversation.")
+
+y = input(male or female)
+
+if y is male:
+    print('Ok then, Mr. ' + x)
+if y is female:
+    print('Ok then, Ms. ' + x)
+
